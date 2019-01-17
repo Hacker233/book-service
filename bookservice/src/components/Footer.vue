@@ -16,7 +16,6 @@
 </template>
 <script>
 export default {
-    
 }
 </script>
 <style lang="scss" scoped>
@@ -32,7 +31,7 @@ export default {
     .homePage {
         width: 20%;
         height: 48px;
-        text-align: center; 
+        text-align: center;
         padding-top: 1px;
         .iconfont{
             font-size: 25px;
@@ -49,7 +48,7 @@ export default {
         border-radius: 10px;
         margin-top: -10px;
         color: #ecd4d4;
-        span { 
+        span {
             display: flex;
             justify-content: center;
         }

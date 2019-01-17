@@ -15,7 +15,6 @@
 
 <script>
 export default {
-  
 }
 </script>
 
@@ -59,7 +58,7 @@ export default {
       background-color: rgba(250, 244, 244,0.5);
       padding-left: 20%;
       box-sizing: border-box;
-      outline: none; 
+      outline: none;
       font-size: 10px;
     }
   }
@@ -81,4 +80,3 @@ export default {
   }
 }
 </style>
- 
