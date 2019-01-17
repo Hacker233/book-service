@@ -3,6 +3,8 @@
     <Header></Header>
     <Classification></Classification>
     <Require></Require>
+    <EBook></EBook>
+    <Recbook></Recbook>
   </div>
 </template>
 
@@ -10,14 +12,17 @@
 import Header from '@/components/Home/Header'
 import Classification from '@/components/Home/Classification'
 import Require from '@/components/Home/Require'
-// @ is an alias to /src
+import EBook from '@/components/Home/EBook'
+import Recbook from '@/components/Home/RecBook'
 
 export default {
   name: 'home',
   components: {
     Header,
     Classification,
-    Require
+    Require,
+    EBook,
+    Recbook
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
-    <div class="relaseRequire">
-        <p>我要求书</p>
+    <div class="Ebook">
+        <p>电子书专场</p>
     </div>
 </template>
 <script>
@@ -9,26 +9,24 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.relaseRequire {
+.Ebook {
     width: 95%;
     height: 100px;
-    background-image: url('../../assets/images/requireBook.jpg');
-    background-size: 100% 200px;
     margin: 0 auto;
-    margin-top: 10px; 
-    border-radius: 0 0 10px 10px;
-    border: 1px solid #e4d1d1;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../../assets/images/EBook.jpg');
+    background-size: 100% 150px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(199, 169, 169);
     p {
         font-size: 25px;
         font-weight: 600;
-        color: #704242;
+        color: #491c1c;
         letter-spacing: 20px;
         font-family: "微软雅黑";
     }
 }
 </style>
-
-
