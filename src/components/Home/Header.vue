@@ -25,6 +25,9 @@ export default {
   height: 48px;
   display: flex;
   display: -webkit-flex;
+  position: fixed;
+  top: 0;
+  z-index: 999;
   background-color: rgb(224, 210, 210);
   border: 0 0 1px 0;
   border-color: #716baa;

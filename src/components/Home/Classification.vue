@@ -22,7 +22,7 @@ export default {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 58px;
     border: 1px solid #e4d1d1;
     border-radius: 10px 10px 0 0;
     .newBook {
