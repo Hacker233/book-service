@@ -1,7 +1,9 @@
 <template>
     <div class="classification">
         <div class="newBook bgc_img_1">
-            <p>新书市集</p>
+            <router-link to="/newbook">
+                <p>新书市集</p>
+            </router-link>
         </div>
         <div class="oldBoook bgc_img_2">
             <p>旧书集市</p>
